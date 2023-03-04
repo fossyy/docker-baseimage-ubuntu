@@ -1,6 +1,6 @@
 FROM alpine:3.12 as rootfs-stage
 
-ENV REL=focal
+ENV REL=jammy
 ENV ARCH=amd64
 
 RUN \
