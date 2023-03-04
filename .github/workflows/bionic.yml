@@ -30,7 +30,7 @@ jobs:
         with:
           context: ./src
           tags: |
-            ghcr.io/fossyy/docker-baseimage-ubuntu:bionic
+            ghcr.io/fossyy/docker-baseimage-ubuntu:focal
           push: ${{ github.ref == 'refs/heads/main' }}
 
       - name: Image digest

@@ -1,6 +1,6 @@
 FROM alpine:3.12 as rootfs-stage
 
-ENV REL=bionic
+ENV REL=focal
 ENV ARCH=amd64
 
 RUN \
