@@ -1,6 +1,6 @@
 FROM alpine:3.12 as rootfs-stage
 
-ENV REL=kinetic
+ENV REL=lunar
 ENV ARCH=amd64
 
 RUN \
